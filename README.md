@@ -30,13 +30,14 @@ Starting from v0.10.0, this module requires Terraform v0.12 or later. Please use
 Submodules
 This module is composed of several submodules and each of which can be used independently. Modules in Package Sub-directories - Terraform describes how to source a submodule.
 
-alarm-baseline
-cloudtrail-baseline
-guardduty-baseline
-iam-baseline
-vpc-baseline
-secure-bucket
-```
+cloudtrail
+cloudwatch_metric_alarm
+guardduty
+iam
+elb_logging
+vpc_flow
+config
+secure_s3
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
