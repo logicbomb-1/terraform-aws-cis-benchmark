@@ -6,7 +6,7 @@ See Benchmark Compliance to check which items in CIS benchmark are covered.
 
 Starting from v0.10.0, this module requires Terraform v0.12 or later. Please use v0.9.0 if you need to use Terraform v0.11 or ealier.
 
-Features
+*Features*
 Identity and Access Management
 Set up IAM Password Policy.
 Create separated IAM roles for defining privileges and assigning them to entities such as IAM users and groups.
